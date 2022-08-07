@@ -1,0 +1,9 @@
+<h2>Ternary Operator</h2>
+<span>{{ showData ? 'Show data for true' : 'Show data for false' }}</span>
+<span *ngIf="showData; then ifBlock else elseBlock"></span>
+<ng-template #ifBlock>
+    <div >Show data for true</div>
+</ng-template>
+<ng-template #elseBlock>
+    <div > Show data for false </div>
+</ng-template>
