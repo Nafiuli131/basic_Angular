@@ -13,6 +13,8 @@ import { TarnaryOperatorComponent } from './tarnary-operator/tarnary-operator.co
 import { SwitchOperatorComponent } from './switch-operator/switch-operator.component';
 import { ForloopComponent } from './forloop/forloop.component';
 import { FormComponent } from './form/form.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { FormComponent } from './form/form.component';
     SwitchOperatorComponent,
     ForloopComponent,
     FormComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule, UserLoginModule],
   providers: [],
