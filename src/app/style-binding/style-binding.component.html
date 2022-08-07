@@ -1,0 +1,9 @@
+<h2 [style.color]="color ? 'red' : 'green'">Style conditional color binding</h2>
+<button (click)="changeColor()">Chnage_Color</button>
+<br />
+<button
+  [style.background-color]="buttonCol ? 'red' : 'green'"
+  (click)="buttonColor()"
+>
+  Change Button Color
+</button>

@@ -15,6 +15,7 @@ import { ForloopComponent } from './forloop/forloop.component';
 import { FormComponent } from './form/form.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { FooterComponent } from './footer/footer.component';
     FormComponent,
     HeaderComponent,
     FooterComponent,
+    StyleBindingComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule, UserLoginModule],
   providers: [],
