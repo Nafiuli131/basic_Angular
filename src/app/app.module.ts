@@ -22,6 +22,7 @@ import { GetApiComponent } from './get-api/get-api.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PostApiComponent } from './post-api/post-api.component';
 import { GetAPIbyServiceComponent } from './get-apiby-service/get-apiby-service.component';
+import { PipesComponent } from './pipes/pipes.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +43,7 @@ import { GetAPIbyServiceComponent } from './get-apiby-service/get-apiby-service.
     GetApiComponent,
     PostApiComponent,
     GetAPIbyServiceComponent,
+    PipesComponent,
   ],
   imports: [
     BrowserModule,
