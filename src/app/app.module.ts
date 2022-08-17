@@ -23,6 +23,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { PostApiComponent } from './post-api/post-api.component';
 import { GetAPIbyServiceComponent } from './get-apiby-service/get-apiby-service.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { BasicRoutingComponent } from './basic-routing/basic-routing.component';
+import { BasicRoutingClassComponent } from './basic-routing-class/basic-routing-class.component';
+import { ParetRouteComponent } from './paret-route/paret-route.component';
+import { ParetRouteClassComponent } from './paret-route-class/paret-route-class.component';
+import { Parentclassroute2Component } from './parentclassroute2/parentclassroute2.component';
+import { Parentclassroute3Component } from './parentclassroute3/parentclassroute3.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +50,12 @@ import { PipesComponent } from './pipes/pipes.component';
     PostApiComponent,
     GetAPIbyServiceComponent,
     PipesComponent,
+    BasicRoutingComponent,
+    BasicRoutingClassComponent,
+    ParetRouteComponent,
+    ParetRouteClassComponent,
+    Parentclassroute2Component,
+    Parentclassroute3Component,
   ],
   imports: [
     BrowserModule,
