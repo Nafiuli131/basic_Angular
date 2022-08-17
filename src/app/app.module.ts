@@ -18,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
-
+import { GetApiComponent } from './get-api/get-api.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,8 +37,15 @@ import { ChildComponent } from './child/child.component';
     StyleBindingComponent,
     ChildComponent,
     ParentComponent,
+    GetApiComponent,
   ],
-  imports: [BrowserModule, FormsModule, AppRoutingModule, UserLoginModule],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    AppRoutingModule,
+    UserLoginModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
