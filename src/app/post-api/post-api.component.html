@@ -1,0 +1,11 @@
+<h2>Post API</h2>
+<div>
+  <form #employeeForm="ngForm" (ngSubmit)="onClickSubmit(employeeForm.value)">
+    <input type="text" name="projecetName" placeholder="Project Name" ngModel />
+    <br />
+    <input type="text" name="companyName" placeholder="Company Name" ngModel />
+    <br />
+
+    <button type="submit">Submit Value</button>
+  </form>
+</div>

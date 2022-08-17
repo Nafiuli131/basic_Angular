@@ -20,6 +20,7 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { GetApiComponent } from './get-api/get-api.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PostApiComponent } from './post-api/post-api.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +39,7 @@ import { HttpClientModule } from '@angular/common/http';
     ChildComponent,
     ParentComponent,
     GetApiComponent,
+    PostApiComponent,
   ],
   imports: [
     BrowserModule,
