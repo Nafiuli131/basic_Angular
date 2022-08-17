@@ -21,6 +21,7 @@ import { ChildComponent } from './child/child.component';
 import { GetApiComponent } from './get-api/get-api.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PostApiComponent } from './post-api/post-api.component';
+import { GetAPIbyServiceComponent } from './get-apiby-service/get-apiby-service.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +41,7 @@ import { PostApiComponent } from './post-api/post-api.component';
     ParentComponent,
     GetApiComponent,
     PostApiComponent,
+    GetAPIbyServiceComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+<h2>Get api by the service singletone class</h2>
+<button (click)="getData()">GetData</button>
+<div *ngFor="let item of getResult">
+  <li>
+    <ul>
+      Name:
+      {{
+        item.name
+      }}
+    </ul>
+    <ul>
+      City:
+      {{
+        item.address.city
+      }}
+    </ul>
+    <ul>
+      Email:
+      {{
+        item.email
+      }}
+    </ul>
+  </li>
+</div>
